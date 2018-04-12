@@ -4,7 +4,7 @@
 using namespace sf;
 
 void menu() {
-	RenderWindow window_menu(VideoMode(1280, 664), "Under the Rain I Slept");
+	RenderWindow window_menu(VideoMode(1280, 720), "Under the Rain I Slept");
 
 	Texture background_menu;
 	Font font_Menu;
@@ -18,11 +18,11 @@ void menu() {
 		std::cout << "Font cant be loaded" << std::endl;
 	}
 
-	background_menu.loadFromFile("C:/Users/dgome/Documents/Visual Studio 2017/Projects/UndertheRainISlept/Assets/Background.png");
+	background_menu.loadFromFile("C:/Users/dgome/Documents/Visual Studio 2017/Projects/UndertheRainISlept/Assets/FutureCity.jpg");
 
 	text_Menu.setFont(font_Menu);
 	text_Menu.setString("Under the Rain\n   I Slept");
-	text_Menu.setCharacterSize(50);
+	text_Menu.setCharacterSize(48);
 	text_Menu.setFillColor(Color::White);
 
 	Sprite BM(background_menu);
