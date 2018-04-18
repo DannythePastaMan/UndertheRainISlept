@@ -1,0 +1,26 @@
+﻿  Continue.cpp
+  main.cpp
+main.cpp(7): error C2365: 'select': redefinition; previous definition was 'function'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock.h(808): note: see declaration of 'select'
+main.cpp(15): error C2440: 'return': cannot convert from 'int (__stdcall *)(int,fd_set *,fd_set *,fd_set *,const timeval *)' to 'int'
+  main.cpp(15): note: There is no context in which this conversion is possible
+main.cpp(18): error C2296: '-': illegal, left operand has type 'int (__stdcall *)(int,fd_set *,fd_set *,fd_set *,const timeval *)'
+main.cpp(19): error C2107: illegal index, indirection not allowed
+main.cpp(19): error C2228: left of '.setFillColor' must have class/struct/union
+main.cpp(20): error C2171: '--': illegal on operands of type 'int (__stdcall *)(int,fd_set *,fd_set *,fd_set *,const timeval *)'
+main.cpp(20): error C2105: '--' needs l-value
+main.cpp(20): warning C4550: expression evaluates to a function which is missing an argument list
+main.cpp(21): error C2107: illegal index, indirection not allowed
+main.cpp(21): error C2228: left of '.setFillColor' must have class/struct/union
+main.cpp(26): error C2296: '+': illegal, left operand has type 'int (__stdcall *)(int,fd_set *,fd_set *,fd_set *,const timeval *)'
+main.cpp(27): error C2107: illegal index, indirection not allowed
+main.cpp(27): error C2228: left of '.setFillColor' must have class/struct/union
+main.cpp(28): error C2171: '++': illegal on operands of type 'int (__stdcall *)(int,fd_set *,fd_set *,fd_set *,const timeval *)'
+main.cpp(28): error C2105: '++' needs l-value
+main.cpp(28): warning C4550: expression evaluates to a function which is missing an argument list
+main.cpp(29): error C2107: illegal index, indirection not allowed
+main.cpp(29): error C2228: left of '.setFillColor' must have class/struct/union
+main.cpp(47): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  NewGame.cpp
+NewGame.cpp(19): warning C4101: 'e': unreferenced local variable
+  Options.cpp

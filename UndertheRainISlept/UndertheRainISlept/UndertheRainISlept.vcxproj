@@ -126,7 +126,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="cScreen.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NewGame.cpp" />
+    <ClCompile Include="Options.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Continue.h" />
+    <ClInclude Include="cScreen.h" />
+    <ClInclude Include="NewGame.h" />
+    <ClInclude Include="Options.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
